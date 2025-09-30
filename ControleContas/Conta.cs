@@ -17,12 +17,7 @@ namespace ControleContas
             _numero = new Random().Next(1000000, 999999999);
         }
         private long _numero;
-        public Conta(decimal saldo)
-        {
-            _saldo = saldo;
-        }
-        public long Numero
-        { //propriedade é o que tem get (leitura) e set (escrita)
+        public long Numero { //propriedade é o que tem get (leitura) e set (escrita)
             get
             {
                 return _numero;
@@ -43,6 +38,14 @@ namespace ControleContas
             {
                 _saldo = value;
             }
+        }
+        public void Depositar(decimal valor)
+        {
+            if (valor < 0)
+            {
+                Console.WriteLine("Valor tem que ser positivo.");
+            }
+            Saldo += valor;
         }
     }
 }
