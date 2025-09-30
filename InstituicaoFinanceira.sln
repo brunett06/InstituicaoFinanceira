@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleContas", "ControleContas\ControleContas.csproj", "{816F5492-C11E-46D5-A561-80EC3DC0C5FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{816F5492-C11E-46D5-A561-80EC3DC0C5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816F5492-C11E-46D5-A561-80EC3DC0C5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816F5492-C11E-46D5-A561-80EC3DC0C5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816F5492-C11E-46D5-A561-80EC3DC0C5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {059B5B7F-3270-4251-94BB-E5CB1A3EEA45}
+	EndGlobalSection
+EndGlobal
