@@ -10,7 +10,7 @@ namespace ControleContas.Tests
         {
             Banco banco = new Banco("banco 1", 1);
             Agencia agencia = new Agencia(1, "0000", "1111", banco);
-            Cliente cliente = new Cliente("Laura", "44444444444", 25);
+            Cliente cliente = new Cliente("Bruna", "44444444444", 25);
 
             Conta conta = new Conta(1, 200, cliente, agencia);
 
@@ -24,7 +24,7 @@ namespace ControleContas.Tests
         {
             Banco banco = new Banco("banco 1", 1);
             Agencia agencia = new Agencia(2, "2222", "3333", banco);
-            Cliente cliente = new Cliente("Mateus", "77777777777", 20);
+            Cliente cliente = new Cliente("Brenda", "77777777777", 20);
 
             Conta conta = new Conta(2, 50, cliente, agencia);
 
