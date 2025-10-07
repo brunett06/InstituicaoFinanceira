@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleContas", "ControleContas\ControleContas.csproj", "{816F5492-C11E-46D5-A561-80EC3DC0C5FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaTeste", "ContaTeste\ContaTeste.csproj", "{7CB4C048-B75A-40B8-8EF1-0F17985BE56D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{816F5492-C11E-46D5-A561-80EC3DC0C5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{816F5492-C11E-46D5-A561-80EC3DC0C5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{816F5492-C11E-46D5-A561-80EC3DC0C5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB4C048-B75A-40B8-8EF1-0F17985BE56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB4C048-B75A-40B8-8EF1-0F17985BE56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB4C048-B75A-40B8-8EF1-0F17985BE56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB4C048-B75A-40B8-8EF1-0F17985BE56D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

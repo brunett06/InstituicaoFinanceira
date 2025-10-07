@@ -1,7 +1,7 @@
-﻿namespace ControleContas
+﻿namespace ContaTeste
 {
     [TestClass]
-    public sealed class Test1
+    public sealed class TesteAgencia
     {
         [TestMethod]
         public void TestMethod1()
