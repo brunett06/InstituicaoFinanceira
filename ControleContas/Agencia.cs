@@ -27,7 +27,7 @@ namespace ControleContas
             Numero = numero;
             Cep = cep;
             Telefone = telefone;
-            Banco = banco
+            Banco = banco;
         }
 
     }
